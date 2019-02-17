@@ -1,4 +1,4 @@
-# DOCUMENTATION
+# ArduinoScheduler documentation
 ## Tasks
 This module contains methods for **Tasks**, an attempt at concurrency:
 
@@ -66,7 +66,7 @@ at 4,294,967,295 (2^32 - 1, unsigned long max) (roughly 50 days) before
 rolling over to 0. This means that you should somewhat expect unexpected behaviour
 if you leave the Arduino on for that long.
 
-# Creating libraries for the Arduino
+# Creating libraries for the Arduino & Usage
 To create libraries, you must create a folder **\<Library\>** containing:
 
     1. <Library>.h -> Your header file
